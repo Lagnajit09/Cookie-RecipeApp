@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 // Connect to MongoDB
-mongoose.connect("mongodb://localhost:27017/auth", {
+mongoose.connect("mongodb://localhost:27017/recipe", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
