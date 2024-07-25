@@ -17,3 +17,11 @@ export interface AuthHandlerProps {
   setAuth: SetterOrUpdater<AuthStateType>;
   setIsOpen?: (open: boolean) => void;
 }
+
+export interface RecipeType {
+  title: string;
+  cookingTime: number;
+  ingredients: string[];
+  steps: string[];
+  imageUrl: string;
+}

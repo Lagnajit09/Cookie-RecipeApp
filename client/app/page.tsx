@@ -1,3 +1,4 @@
+import Footer from "@/components/component/footer";
 import Header from "@/components/component/header";
 import Navbar from "@/components/component/navbar";
 import Recipe from "@/components/component/recipes";
@@ -9,6 +10,7 @@ const page = () => {
       <Navbar />
       <Header />
       <Recipe />
+      <Footer />
     </>
   );
 };
